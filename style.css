@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+form .top {
+  height: 285px;
+  margin-bottom: 10px;
+}
+form img {
+  width: 300px;
+  height: 150px;
+  margin-left: 30px;
+}
+form h1 {
+  text-align: left;
+  margin-left: 30px;
+}
+form p {
+  text-align: left;
+  margin-left: 30px;
+}
+form .box {
+  margin: 15px 15px;
+}
+form .box label {
+  text-align: left;
+}
+input[type='number'] {
+  /* margin-top: 10px; */
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  background-color: inherit;
+}
+form .pin {
+  text-align: right;
+  font-weight: bold;
+  margin-right: 15px;
+  cursor: pointer;
+  margin: 15px 15px;
+}
+.pin:hover {
+  color: #0d71b0;
+}
+button {
+  padding: 10px;
+  color: #fff;
+  background-color: #0d71b0;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #5153bb;
+  border-width: 1px 1px 3px;
+  /* box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset; */
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+button:hover {
+  font-weight: bold;
+}
